@@ -1,6 +1,7 @@
 #p001 {
   text-align: left;
-  word-break: break-all;
+  word-wrap: break-word;
+  font-size: large;
 }
 #h001{
 	text-align: center;
