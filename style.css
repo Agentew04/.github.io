@@ -1,12 +1,62 @@
-#p001 {
-  text-align: left;
-  word-wrap: break-word;
-  font-size: large;
+body {
+  margin: 0px;
+  background-image: url(p.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: 'Balsamiq Sans', cursive;
 }
-#h001{
-	text-align: center;
+
+.topo {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  font-size: 30px;
 }
-img.center {
-  display: block;
-  margin: 0 auto;
+.logo {
+  height: 170px;
+  width: 20%;
+}
+.a {
+  width: 100%;
+  height: 100px;
+  margin-top: 160px;
+  font-size: 20px;
+}
+.link {
+  color: rgb(245, 7, 7);
+  text-decoration: none;
+}
+.link:hover {
+  color: navy;
+  text-decoration: underline;
+}
+.classe {
+  margin-left: 1%;
+  width: 10%;
+  height: 250px;
+  margin-top: 50px;
+  font-size: 18px;
+}
+.raça {
+  width: 10%;
+  height: 200px;
+  float: right;
+  margin-top: -250px;
+  font-size: 18px;
+  margin-right: 65%;
+}
+.monstro {
+  width: 10%;
+  height: 200px;
+  float: right;
+  margin-top: -250px;
+  font-size: 18px;
+  margin-right: 40%;
+}
+.tabela {
+  width: 15%;
+  height: 250px;
+  margin-top: -250px;
+  font-size: 18px;
+  margin-left: 75%;
 }
