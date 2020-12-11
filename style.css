@@ -30,20 +30,20 @@ body {
   color: navy;
   text-decoration: underline;
 }
-.classe {
+.tutorial {
   margin-left: 1%;
   width: 10%;
   height: 250px;
   margin-top: 50px;
   font-size: 18px;
-}
-.raça {
+} 
+.classe{
   width: 10%;
   height: 200px;
   float: right;
   margin-top: -250px;
   font-size: 18px;
-  margin-right: 65%;
+  margin-right: 70%;
 }
 .monstro {
   width: 10%;
@@ -51,14 +51,22 @@ body {
   float: right;
   margin-top: -250px;
   font-size: 18px;
-  margin-right: 40%;
+  margin-right: 47%;
+}
+.raça {
+  width: 10%;
+  height: 200px;
+  float: right;
+  margin-top: -250px;
+  font-size: 18px;
+  margin-right: 25%;
 }
 .tabela {
   width: 15%;
-  height: 250px;
+  height: 200px;
   margin-top: -250px;
   font-size: 18px;
-  margin-left: 75%;
+  margin-left: 85%;
 }
 table, th, td {
   border: 1px solid black;
