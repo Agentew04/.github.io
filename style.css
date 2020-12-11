@@ -71,3 +71,7 @@ body {
 table, th, td {
   border: 1px solid black;
 }
+#caixapesquisa{
+  background-color: rgb(255, 255, 255);
+  width: 10%;
+}
