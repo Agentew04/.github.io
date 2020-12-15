@@ -1,6 +1,7 @@
 body {
   margin: 0px;
   font-family: 'Balsamiq Sans', cursive;
+  background-color: rgb(54, 57, 63);
 }
 .dd {
   padding-left: 41%;
@@ -21,34 +22,47 @@ body {
   grid-template-columns: repeat(3,1fr);
 }
 .c {
-  background-color: navy;
   color: white;
-  border: 3px solid black;
 }
 .c1 {
   height: 130px;
   grid-column:1/5;
+  border: 5px solid black;
+  border-radius: 10px;
 }
 .c2 {
+  border-radius: 5px;
   grid-column:1/5;
-  height: 200px;
+  height: 250px;
 }
 .c3 {
   height: 300px;
+  border: 3px solid goldenrod;
+  border-radius: 10px;
 }
 .c4 {
   height: 300px;
+  border: 3px solid goldenrod;
+  border-radius: 10px;
 }
 .c5 {
   height: 300px;
+  border: 3px solid goldenrod;
+  border-radius: 10px;
 }
 .c6 {
   grid-column: 1/2;
   height: 300px;
+  border: 3px solid goldenrod;
+  border-radius: 10px;
 }
 .c7 {
   height: 300px;
+  border: 3px solid goldenrod;
+  border-radius: 10px;
 }
 .c8 {
   height: 300px;
+  border: 3px solid goldenrod;
+  border-radius: 10px;
 }
