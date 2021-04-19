@@ -1,68 +1,19 @@
-body {
-  margin: 0px;
-  font-family: 'Balsamiq Sans', cursive;
-  background-color: rgb(54, 57, 63);
-}
-.dd {
-  padding-left: 41%;
-  height: 150px;
-  width: 18%;
-}
-.link {
-  color: red;
-  text-decoration: none;
-}
-.link:hover {
-  color: black;
-  text-decoration: underline;
-}
-.caixa {
+#menu {
   display: grid;
-  width: 100%;
-  grid-template-columns: repeat(3,1fr);
+  background: #1abc9c;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
 }
+
 .c {
-  color: white;
+  padding-right: 20px;
+  background-color: #1abc9c;
+  text-align: left;
+  font-size: 20px;
+  display: inline;
 }
-.c1 {
-  height: 130px;
-  grid-column:1/5;
-  border: 5px solid black;
-  border-radius: 10px;
-}
-.c2 {
-  border-radius: 5px;
-  grid-column:1/5;
-  height: 250px;
-}
-.c3 {
-  height: 300px;
-  border: 3px solid goldenrod;
-  border-radius: 10px;
-}
-.c4 {
-  height: 300px;
-  border: 3px solid goldenrod;
-  border-radius: 10px;
-}
-.c5 {
-  height: 300px;
-  border: 3px solid goldenrod;
-  border-radius: 10px;
-}
-.c6 {
-  grid-column: 1/2;
-  height: 300px;
-  border: 3px solid goldenrod;
-  border-radius: 10px;
-}
-.c7 {
-  height: 300px;
-  border: 3px solid goldenrod;
-  border-radius: 10px;
-}
-.c8 {
-  height: 300px;
-  border: 3px solid goldenrod;
-  border-radius: 10px;
+
+.link {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
 }
